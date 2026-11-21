@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cute Calculater </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="calculater">
+        <h1>Cute Calculater</h1>
+
+        <section class="display">
+            <div id="calculater"></div>
+            <div id="answer">0</div>
+        </section>
+
+        <section class="button">
+          
+            <button data-value="%" class="special">%</button>
+            <button data-value="CE" class="special">CE</button>
+            <button data-value="C" class="special">C</button>
+            <button data-value="⌫" class="special">⌫</button>
+
+            <button data-value="1/x">1/x</button>
+            <button data-value="X²">X²</button>
+            <button data-value="²√x">²√x</button>
+            <button data-value="÷" class="operator">÷</button>
+            
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button data-value="×" class="operator">×</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button data-value="-" class="operator">-</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button data-value="+" class="operator">+</button>
+
+            <button data-value="+/-">+/-</button>
+            <button data-value="0" class="zero">0</button>
+            <button data-value=".">.</button>
+            <button data-value="=" class="equal">=</button>
+
+        </section>
+
+        <div class="theme-switch">
+
+            <span>☀️</span>
+
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>🌙</span>
+
+        </div>
+         
+
+        <p class="footer">Made with Kavee ♡</p>
+
+        <script src="script.js"></script>
+    </main>
+</body>
